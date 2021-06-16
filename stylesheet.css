@@ -1,0 +1,332 @@
+#top {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.title {
+    max-width: 1200px;
+    margin: 3vh auto;
+    font-size: 13px;
+}
+
+.menu {
+    width: 100%;
+    height: 5vh;
+    background-color: #222222;
+    overflow-x: auto;
+  　-webkit-overflow-scrolling: touch; /* 慣性スクロール */
+
+}
+
+.menu ul{
+    max-width: 1200px; /* メニューの最大幅 */
+    line-height: 40px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+
+.menu li{
+    font-size: 13px;
+    padding-right: 60px;
+    color: white;
+    list-style: none;
+}
+
+#container {
+    padding-top: 20vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.pickup-container {
+    width: 32%;
+    margin-bottom:  7vh;
+}
+
+.pickup-container img{
+    width: 100%;
+}
+
+.pickup-container h2{
+    font-size: 16px;
+}
+
+.pickup-container p{
+    width: 25%;
+    margin: 3vh auto;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#container2 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.main-container {
+    margin: 0 auto;
+    margin-top: 7vh;
+    width: 70%;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-content h3{
+    font-size: 25px;
+}
+
+.text1 {
+    list-style: none;
+    margin: 2vh;
+    display: flex;
+    font-size: 13px;
+}
+
+.text1 li{
+    padding-right: 16px;
+}
+
+.main-content img{
+    width: 100%;
+}
+
+.main-content p{
+    margin: 0 auto;
+    width: 90%;
+    font-size: 15px;
+}
+
+.read {
+    width: 13%;
+    margin: 3vh auto;
+    margin-bottom: 13vh;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#side-container {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.profile-content {
+    width: 95%;
+}
+
+.profile-content h3{
+    margin: 5vh;
+    font-size: 15px;
+    text-align: center;
+}
+
+.profile-content p{
+    font-size: 14px;
+    margin-bottom: 5vh;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-img img{
+    width: 18vh;
+    height: 18vh;
+}
+
+.title2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5vh;
+    font-size: 15px;
+    text-align: center;
+}
+
+.ranking-box {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ranking-box img {
+    width: 100%;
+}
+
+.ranking-box p{
+    width: 100%;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-bottom: 7vh;
+}
+
+.archive {
+    width: 90%;
+}
+
+.archive-content {
+    border-top: 1px solid;
+}
+
+.archive-content ul{
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+}
+
+.archive-content li{
+    padding: 3vh;
+    border-bottom: 1px solid;
+    font-size: 13px;
+}
+
+.blank {
+    margin: 0;
+    width: 100%;
+    height: 20vh;
+}
+
+#footer-continer {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-box {
+    padding: 3vh;
+    width: 25%;
+    font-size: 13px;
+}
+
+.footer-title{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+}
+
+.about-box p{
+    margin-bottom: 5vh;
+}
+
+.about-box li{
+    list-style: none;
+}
+
+.menu-box {
+    padding: 3vh;
+    width: 25%;
+    font-size: 15px;
+}
+
+.p-box {
+    border-top: 1px solid;
+}
+
+.p-box p{
+    font-size: 13px;
+    padding: 2vh;
+    border-bottom: 1px solid;
+}
+
+.twitter-box {
+    padding: 3vh;
+    width: 25%;
+    font-size: 15px;
+}
+
+.footer-end {
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 7vh;
+    padding-bottom: 2vh;
+    font-size: 15px;
+    background-color: #F5F5F5;
+}
+
+@media screen and (max-width:480px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .pickup-container {
+        margin: 0 auto;
+        width: 93%;
+    }
+    
+    .container2 {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .main-container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .main-content img{
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .read {
+        width: 30%;
+    }
+    
+    .side-container {
+        width: 100%;
+    }
+    
+    .ranking {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .title-img {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .profile-content {
+        margin: 0 auto;
+        width: 93%;
+    }
+    
+    .archive {
+        margin: 0 auto;
+        width: 95%;
+    }
+    
+    .footer-continer {
+        flex-direction: column;
+    }
+    
+    .about-box {
+        width: 100%;
+    }
+    
+    .menu-box {
+        width: 100%;
+    }
+    
+    .twitter-box {
+        width: 100%;
+    }
+}
